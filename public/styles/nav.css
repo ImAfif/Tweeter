@@ -1,0 +1,35 @@
+body {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  font-family: 'Source Sans Pro';
+}
+
+nav {
+  position: relative;
+  background-color: #4056A1;
+  height: 120px;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tweeter{
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    border: 1.5em;
+}
+
+.right-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+.red{  
+  color: red;
+}
