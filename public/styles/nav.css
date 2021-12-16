@@ -1,35 +1,26 @@
-body {
-  color: #FFFFFF;
-  background-color: #FFFFFF;
-  font-family: 'Source Sans Pro';
-}
-
-nav {
-  position: relative;
+.navbar-top {
   background-color: #4056A1;
+  color:white;
   height: 120px;
-  padding: 1.5em;
+  width: 100%;
+  padding: 0 1.5em;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
-.tweeter{
+.navbar-top-brand {
     font-family: 'Bungee', cursive;
     font-size: 40px;
-    display: flex;
-    align-items: center;
-    border: 1.5em;
 }
 
-.right-title {
+.navbar-top-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+
 }
 
-
-.red{  
+.navbar-top-menu i{  
   color: red;
 }

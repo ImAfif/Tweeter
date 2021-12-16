@@ -1,18 +1,19 @@
-
-body {
-background-color: #1d2433;
-background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
-}
-
-.picture{
+.header {
+  background-color: #1d2433;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  flex-direction: column;
   align-items: center;
 }
-.name{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.header-avatar {
+  max-width: 250px;
+}
+
+.header-avatar img {
+  width: 100%;
+}
+
+.header-username {
+  font-size: 1.8em;
 }
