@@ -93,6 +93,7 @@ $(document).ready(function () {
 
     if ($input.val().length > 140) {
       alert("Characters cannot be over 140");
+      return ($input.val() = "")
     }
 
     $.ajax({
