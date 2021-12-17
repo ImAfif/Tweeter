@@ -30,6 +30,10 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"
+      type="text/javascript"
+    ></script>
 
     <!-- App JS -->
     <script
@@ -55,6 +59,10 @@
         <img class="picture" src="/images/profile-hex.png" />
       </div>
       <p class="header-username"><b>Afif </b>Ayoub</p>
+      <p class="header-profile-status">
+        Completed my undergrad in Law, transitioning from community service to
+        coding. #tech
+      </p>
     </header>
 
     <main class="container">
@@ -77,15 +85,23 @@
           </div>
         </form>
       </section>
-
-      <section class="otherTweets">
-        <img class="picture2" src="/images/profile-hex.png" />
-        <p class="bottomMessage">10 days ago</p>
-        <span class="bottomButtons"
-          ><i class="fas fa-heart"></i><i class="fas fa-flag"></i
-          ><i class="fas fa-retweet"></i
-        ></span>
-      </section>
+      <div class="tweets-container">
+        <section class="old-tweets-by-users">
+          <div class="name-and-handle">
+            <h3 class="other-users-name">Michael Scott</h3>
+            <p class="twitter-handle">@ItsBritneyBitch</p>
+          </div>
+          <img class="picture2" src="/images/profile-hex.png" />
+          <p class="placeholderfortweet">
+            I DECLARE <b>BANKRUPTCY!!!!!!!!!!</b>
+          </p>
+          <p class="days-since-posted">10 days ago</p>
+          <span class="bottom-buttons"
+            ><i class="fas fa-heart"></i><i class="fas fa-flag"></i
+            ><i class="fas fa-retweet"></i
+          ></span>
+        </section>
+      </div>
     </main>
   </body>
 </html>

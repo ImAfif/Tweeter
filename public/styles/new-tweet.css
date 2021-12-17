@@ -22,6 +22,7 @@
   font-size: 1.15em;
   padding: 1em;
   margin-bottom: 1em;
+  border-radius: 30px;
 }
 
 .new-tweet-submit {
@@ -38,43 +39,93 @@
   background: #c9d3cb;
 }
 
-/* .new-tweet-submit-button{
-
-}
-
-
-.text {
-  color: #2e3e74;
-}
-h2 {
-  font-family: 'Source Sans Pro';
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-top: auto;
-}
-
-.otherTweets{
+.old-tweets-by-users {
+  padding-bottom: 0.5em;
   background: #2e3e74;
-  width: 98%;
-  border-radius: 70px;
-}
-.picture2 {
-  display: block;
-  max-width: 180px;
-  max-height: 90px;
-  width: auto;
-  height: auto;
-  position: relative;
-  left: 15px;
-  top: 15px;
-}
+  border-radius: 30px;
 
-.bottomButtons {
+}
+.other-users-name {
+  position: relative;
+  left: -75px;
+  top: 10px;
+
+}
+.days-since-posted {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  justify-content: center;
+  color: grey;
+}
+
+.bottom-buttons {
+  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  color: white;
-} */
+}
+
+
+.name-and-handle {
+  position: relative;
+  top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  left: 50px;
+}
+
+.twitter-handle {
+  margin-left: 650px;
+}
+
+.other-users-name {
+}
+
+.placeholderfortweet {
+  font-size: 37px;
+  position: relative;
+  left: 15vw;
+  bottom: 31px;
+  height: 0;
+  white-space: pre-wrap;
+}
+
+.fa-flag {
+  color: rgb(0, 180, 0);
+}
+
+.fa-flag:hover {
+  color:rgb(0, 58, 0)
+}
+
+.fa-heart {
+  color:rgb(255, 0, 0)
+}
+.fa-heart:hover{
+  color:rgb(85, 0, 0)
+}
+
+.fa-retweet {
+  color: cyan
+}
+.fa-retweet:hover{
+  color:rgb(0, 92, 92)
+}
+
+
+.header-username{ 
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.header-profile-status {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.picture2 {
+  position: relative;
+  left: 5em;
+  top: 2em;
+  
+}

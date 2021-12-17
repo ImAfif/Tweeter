@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // --- our code goes here ---
-  $(".new-tweet-text").on("keydown", function () {
+  $(".new-tweet-text").on("input", function () {
     let counter = 140;
     counter = counter - $(this).val().length;
     $(".new-tweet-submit-counter").text(counter);
