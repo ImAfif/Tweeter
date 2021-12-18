@@ -52,56 +52,82 @@
         <i class="fa-solid fa-angles-down"></i>
       </div>
     </nav>
+    <div class="header-container">
+      <!-- Page-specific (main) content here -->
+      <header class="header">
+        <div class="header-avatar">
+          <img
+            class="picture"
+            src="https://www.pngitem.com/pimgs/m/8-86039_smiling-face-with-sunglasses-icon-goggle-emoji-hd.png"
+          />
+        </div>
+        <p class="header-username"><b>Afif </b>Ayoub</p>
+        <p class="header-profile-status">
+          Completed my undergrad in Law, transitioning from community service to
+          coding. <i>#tech</i>
+        </p>
+      </header>
 
-    <!-- Page-specific (main) content here -->
-    <header class="header">
-      <div class="header-avatar">
-        <img class="picture" src="/images/profile-hex.png" />
-      </div>
-      <p class="header-username"><b>Afif </b>Ayoub</p>
-      <p class="header-profile-status">
-        Completed my undergrad in Law, transitioning from community service to
-        coding. #tech
-      </p>
-    </header>
-
-    <main class="container">
-      <section class="new-tweet">
-        <h2 class="new-tweet-title">What are you humming about?</h2>
-        <form class="new-tweet-form" action="/tweets/" method="POST">
-          <textarea
-            class="new-tweet-text"
-            name="text"
-            cols="80"
-            rows="2"
-          ></textarea>
-          <div class="new-tweet-submit">
-            <button class="new-tweet-submit-button" type="submit">
-              T W E E T
-            </button>
-            <p class="new-tweet-submit-counter" name="counter" for="tweet-text">
-              140
+      <!-- Container -->
+      <main class="container">
+        <section class="new-tweet">
+          <section class="tweet-error">
+            <p class="tweet-error-message-too-long">
+              Your tweet is over the 140 character limit, cannot post!
             </p>
-          </div>
-        </form>
-      </section>
-      <div class="tweets-container">
-        <section class="old-tweets-by-users">
-          <div class="name-and-handle">
-            <h3 class="other-users-name">Michael Scott</h3>
-            <p class="twitter-handle">@ItsBritneyBitch</p>
-          </div>
-          <img class="picture2" src="/images/profile-hex.png" />
-          <p class="placeholderfortweet">
-            I DECLARE <b>BANKRUPTCY!!!!!!!!!!</b>
-          </p>
-          <p class="days-since-posted">10 days ago</p>
-          <span class="bottom-buttons"
-            ><i class="fas fa-heart"></i><i class="fas fa-flag"></i
-            ><i class="fas fa-retweet"></i
-          ></span>
+            <p class="tweet-error-message-empty">
+              Your tweet has no characters, cannot post!
+            </p>
+          </section>
+          <h2 class="new-tweet-title">What are you humming about?</h2>
+          <form class="new-tweet-form" action="/tweets/" method="POST">
+            <textarea
+              class="new-tweet-text"
+              name="text"
+              cols="80"
+              rows="2"
+            ></textarea>
+            <div class="new-tweet-submit">
+              <button class="new-tweet-submit-button" type="submit">
+                T W E E T
+              </button>
+              <p
+                class="new-tweet-submit-counter"
+                name="counter"
+                for="tweet-text"
+              >
+                140
+              </p>
+            </div>
+          </form>
         </section>
-      </div>
-    </main>
+        <!-- tweets container-->
+        <div class="tweets-container">
+          <section class="old-tweets-by-users">
+            <div class="name-handle-and-picture">
+              <div class="name-and-handle">
+                <h3 class="other-users-name">Michael Scott</h3>
+                <img class="picture2" src="/images/profile-hex.png" />
+              </div>
+              <p class="twitter-handle">@DunderMS</p>
+            </div>
+            <div>
+              <p class="placeholderfortweet">
+                Don't ever, for any reason, do anything, to anyone, for any
+                reason, ever, no matter, what, no matter where, or who, or who
+                you are with, or where you are going, or where you've been,
+                ever, for any reason, whatsoever.
+              </p>
+              <p class="days-since-posted">10 days ago</p>
+
+              <span class="bottom-buttons"
+                ><i class="fas fa-heart"></i><i class="fas fa-flag"></i
+                ><i class="fas fa-retweet"></i
+              ></span>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

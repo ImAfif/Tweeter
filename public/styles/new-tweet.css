@@ -47,7 +47,7 @@
 }
 .other-users-name {
   position: relative;
-  left: -75px;
+  left: 70px;
   top: 10px;
 
 }
@@ -65,29 +65,55 @@
 }
 
 
+.name-handle-and-picture {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .name-and-handle {
-  position: relative;
-  top: 65px;
+  top: 7px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  left: 50px;
+
 }
 
 .twitter-handle {
-  margin-left: 650px;
+  margin-top: 40px;
+  margin-left: 920px;
+  margin-bottom: 0;
+  margin-right: 1em;
 }
+
+.tweet-error{
+  background: rgb(65, 1, 65);
+  flex-direction: row;
+  border-radius: 70px;
+  padding: 10px 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  display: none;
+}
+
+.tweet-error-message-too-long {
+  display: none;
+}
+
+.tweet-error-message-empty {
+  display: none;
+}
+
 
 .other-users-name {
 }
 
 .placeholderfortweet {
   font-size: 37px;
-  position: relative;
-  left: 15vw;
-  bottom: 31px;
+  bottom: 58px;
   height: 0;
   white-space: pre-wrap;
+  padding-left: 100px;
+  margin-bottom: 50px;
 }
 
 .fa-flag {
@@ -121,11 +147,61 @@
 .header-profile-status {
   margin-top: 15px;
   margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.picture {
+  border-radius: 250px;
 }
 
 .picture2 {
   position: relative;
-  left: 5em;
-  top: 2em;
+  left: 3em;
+  top: 1em;
+  width: 100px;
+  border-radius: 10px;
+  
+}
+
+.header-container{
+  display: flex;
+  margin: auto;
+  margin-top: 130px;
+
+}
+
+.header {
+  margin-left: 0px;
+  border-radius: 35px;
+  margin-top: 23px;
+}
+
+@media (min-width:768px) {
+  .new-tweet-text {
+    width: 500px;
+  }
+}
+
+@media (min-width:1024px) {
+  .new-tweet-text {
+    width: 950px;
+  }
+}
+
+
+@media (max-width:1880px){
+  .header-container{
+    flex-direction: column;
+  }
+  .header{
+    width: 100%;
+  }
+
+  main.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   
 }

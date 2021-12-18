@@ -87,13 +87,22 @@ $(document).ready(function () {
 
     const $input = $(`.new-tweet-text`);
 
+    //slides up error message if any were to exist on user page
+    $(
+      ".tweet-error, .tweet-error-message-empty, .tweet-error-message-too-long"
+    ).slideUp();
+
     if ($input.val() === "") {
-      alert("Kindly input a character to tweet");
+      $(".tweet-error-message-empty").slideDown();
+      $(".tweet-error").slideDown();
+      return;
     }
 
     if ($input.val().length > 140) {
-      alert("Characters cannot be over 140");
-      return ($input.val() = "")
+      $(".tweet-error-message-too-long").slideDown();
+      $(".tweet-error").slideDown();
+      return;
+      // return ($input.val() = "")
     }
 
     $.ajax({

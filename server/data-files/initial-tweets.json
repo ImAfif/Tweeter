@@ -1,24 +1,24 @@
 [
   {
     "user": {
-      "name": "Newton",
-      "avatars": "https://i.imgur.com/73hZDYK.png",
-      "handle": "@SirIsaac"
+      "name": "Dwight Kurt Schrute III",
+      "avatars": "https://pbs.twimg.com/profile_images/1212841876895813632/4mzarqqS_400x400.jpg",
+      "handle": "@SchruteFarms"
     },
     "content": {
-      "text": "If I have seen further it is by standing on the shoulders of giants"
+      "text": "When someone smiles at me, all I see is a chimpanzee begging for its life."
     },
-    "created_at": 1639601257076
+    "created_at": 1639629115552
   },
   {
     "user": {
-      "name": "Descartes",
-      "avatars": "https://i.imgur.com/nlhLi3I.png",
-      "handle": "@rd"
+      "name": "Michael Scott",
+      "avatars": "https://pbs.twimg.com/profile_images/1258083294870036481/T-f9OgNq_400x400.jpg",
+      "handle": "@MichaelScott"
     },
     "content": {
-      "text": "Je pense , donc je suis"
+      "text": "Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way."
     },
-    "created_at": 1639687657076
+    "created_at": 1639715515552
   }
 ]
